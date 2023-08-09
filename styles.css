@@ -1,0 +1,27 @@
+/* <img src= "Luke skywalker.jpeg" class="img-{{Luke Skywalker}}" alt="Image" */
+
+*{
+  padding: 1rem;
+  margin:0;
+  box-sizing:border-box;
+}
+
+
+
+
+.stars{
+
+  justify-content: center;
+
+  align-items: center;
+  
+
+  width: 50%;
+}
+
+#cards{
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  gap: 20px;
+}
+
